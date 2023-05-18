@@ -371,7 +371,12 @@ void updateForThePlayerTeam()
     }
     if(ball5.y<0) vel5Y = -vel5Y;
     if(ball5.y+SIZE8>HEIGHT) {
-        vel5Y = -vel5Y;
+        heart5--;
+        paddle5.x = (WIDTH_L/2)-(paddle5.w/2)-200;
+        ball5.y = paddle5.y-(paddle5.h*4);
+        vel5Y = BALLSPEED/2;
+        vel5X = 0;
+        ball5.x = WIDTH_L/2-SIZE8/2-200;
     }
     if(ball5.x<0 || ball5.x+SIZE8>WIDTH_L-50) vel5X = -vel5X;
     ball5.x+=vel5X;
@@ -389,7 +394,12 @@ void updateForThePlayerTeam()
     }
     if(ball6.y<0) vel6Y = -vel6Y;
     if(ball6.y+SIZE8>HEIGHT) {
-        vel6Y = -vel6Y;
+        heart5--;
+        paddle6.x = (WIDTH_L/2)+(paddle5.w/2);
+        ball6.y = paddle6.y-(paddle6.h*4);
+        vel6Y = BALLSPEED/2;
+        vel6X = 0;
+        ball6.x = WIDTH_L/2+SIZE8/2+80;
     }
     if(ball6.x<0 || ball6.x+SIZE>WIDTH_L-50) vel6X = -vel6X;
     ball6.x+=vel6X;

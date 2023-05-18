@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1683267997 source:d:\brickbreaker\brickbreakerproject\source.cpp
+1684138097 source:d:\brickbreaker\brickbreakerproject\source.cpp
 	<SDL.h>
 	<SDL_ttf.h>
 	<SDL_image.h>
@@ -408,7 +408,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1684138097 source:c:\users\admin\brickbreaker\source.cpp
+1684380255 source:c:\users\admin\brickbreaker\source.cpp
 	<SDL.h>
 	<SDL_ttf.h>
 	<SDL_image.h>
