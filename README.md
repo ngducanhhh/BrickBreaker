@@ -1,8 +1,8 @@
 # BrickBreaker
-- Trò chơi bắn gạch để tính điểm theo thời gian, nếu vượt quá thời gian mà đạt số điểm mục tiêu thì sẽ chiến thắng
+- Trò chơi bắn gạch để tính điểm theo thời gian, nếu hết thời gian mà đạt số điểm mục tiêu thì sẽ chiến thắng
 - Cách chơi:
-- + Ở chế độ 1 người chơi: sử dụng phím mũi tên trái/ phải để di chuyển tấm ván để bắn bóng vào gạch
-- + Ở chế độ 2 người chơi: sử dụng phím mũi tên trái/ phải đối với người chơi 1 và phím a/d đối với người chơi 2 để di chuyển tấm ván
++ Ở chế độ 1 người chơi: sử dụng phím mũi tên trái/ phải để di chuyển tấm ván để bắn bóng vào gạch
++ Ở chế độ 2 người chơi: sử dụng phím mũi tên trái/ phải đối với người chơi 1 và phím a/d đối với người chơi 2 để di chuyển tấm ván
 - Các chế độ chơi:
 + 1 người chơi: người chơi cố gắng phá gạch để đạt được số điểm >= số điểm mục tiêu trước khi thời gian kết thúc, nếu đạt được thì sẽ qua màn và thời gian cùng với số điểm mục tiếu
 sẽ được nâng cấp, còn nếu không đat được thì sẽ thua cuộc
